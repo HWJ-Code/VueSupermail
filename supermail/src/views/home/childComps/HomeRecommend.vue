@@ -25,7 +25,6 @@
   .home-recommend {
     display: flex;
     font-size: 12px;
-
     margin-top: 8px;
     border-bottom: 8px solid #f2f2f2;
     padding-bottom: 25px;

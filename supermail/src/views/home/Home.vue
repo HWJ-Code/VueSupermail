@@ -3,6 +3,7 @@
     <nav-bar class="home-nav"><div slot="center">购物街</div></nav-bar>
     <home-swiper :banners="banners"></home-swiper>
     <home-recommend :recommends="recommends"></home-recommend>
+    <home-feature-view></home-feature-view>
   </div>
   
 </template>
@@ -11,6 +12,7 @@
   import NavBar from 'components/common/navbar/NavBar.vue'
   import HomeSwiper from './childComps/HomeSwiper.vue'
   import HomeRecommend from './childComps/HomeRecommend.vue'
+  import HomeFeatureView from './childComps/HomeFeatureView'
 
   import {getHomeMultidata} from 'network/home'
   export default {
@@ -19,6 +21,7 @@
       NavBar,
       HomeSwiper,
       HomeRecommend,
+      HomeFeatureView,
     },
     data() {
       return {
